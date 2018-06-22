@@ -1,0 +1,161 @@
+body
+  background-color: #0f2027
+  font-family: 'Quicksand', sans-serif
+  p
+    line-height: 1.7
+
+*::selection
+  background: #FFDC60
+
+
+.social-icon__link
+  margin: 0 10px 10px
+  // text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2)
+  transition: all 0.15s ease-out
+  &:hover
+    transform: scale(1.1)
+
+
+
+.main-content
+  background-color: #193844
+  background-image: url('../assets/jpg/main-content@2x.jpg')
+  background-position: top center
+  background-size: cover
+  padding: 2rem 0
+  display: flex
+  flex-direction: column
+  align-items: center
+  &__body
+    max-width: 600px
+    text-align: center
+    color: #fff
+    font-size: 18px
+    padding: 0 1rem
+    @media (max-width: 400px)
+      padding-top: 2rem
+  h2
+    text-shadow: 1px 1px 3px rgba(black, 0.5)
+    margin: 2em 0
+
+h1, h2
+  font-family: 'Knewave', cursive
+
+
+.newsletter-form
+  padding: 2rem
+  background-color: #E6A501
+  box-shadow: 0 20px 30px rgba(black, 0.25)
+  color: #0F2027
+  p
+    margin: 0
+  form
+    margin: 0
+    margin-top: 1rem
+  &__inner
+    display: flex
+    flex-direction: column
+  input:not([type="submit"])
+    margin-bottom: 1rem
+
+
+input[type="submit"],
+input[type="text"],
+input[type="email"]
+  padding: 6px 8px
+  box-shadow: 1px 1px 3px rgba(black, 0.2)
+  outline: none
+  border: none
+  width: 100%
+
+
+
+input[type="submit"]
+  padding: 12px 10px
+  background-image: linear-gradient(to left, #1E7399 0%, #192B33 100%)
+  color: #fff
+  transition: all 0.15s ease-out
+  box-shadow: 0 0 0 #fff
+  &:hover
+    box-shadow: 3px 3px 0 #fff
+    transform: translate(-3px, -3px)
+  &:active
+    transform: translate(0, 0)
+    box-shadow: 0 0 0 #fff, inset 0 0 6px rgba(black, 0.6)
+
+
+
+
+.footer-bar
+  background-color: #0C191F
+  border-top: 4px solid #FFDC60
+  text-align: center
+  p
+    margin: 0
+    padding: 6px 0
+    font-size: 14px
+    color: #fff
+
+
+.button
+  background-image: linear-gradient(to left, #FFDC60 0%, #E6A400 100%)
+  outline: none
+  border: none
+  padding: 10px 24px
+  box-shadow: 1px 1px 3px rgba(black, 0.3)
+  margin-top: 1rem
+  color: #fff
+  text-decoration: none
+
+
+.hero
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: center
+  height: calc(100vw/1.734848485)
+  overflow: hidden
+  img
+    margin-bottom: 0
+  &--mobile
+    // background: no-repeat bottom center url('../assets/png/hero/mobile-full.png')
+    // background-size: contain
+    // height: 400px
+    background-color: #193844
+    .hero__content
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+    img
+      margin: 0
+  &__layer
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    z-index: -1
+  .layer-1
+    transform: translateY(-20px)
+  .layer-2
+    transform: translateY(-10px)
+  &__content
+    z-index: 10
+    text-align: center
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    padding-top: 50px
+    flex-direction: column
+    width: 100%
+    max-width: 500px
+    margin: 0 auto
+    @media (max-width: 1150px)
+      max-width: 350px
+    @media (max-width: 950px)
+      max-width: 250px
+    &__logo
+      width: 70%
+      margin: 0 auto
+  
