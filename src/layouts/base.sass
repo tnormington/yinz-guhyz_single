@@ -104,7 +104,7 @@ input[type="submit"]
   padding: 10px 24px
   box-shadow: 1px 1px 3px rgba(black, 0.3)
   margin-top: 1rem
-  color: #fff
+  color: #192B33
   text-decoration: none
 
 
@@ -121,6 +121,7 @@ input[type="submit"]
     // background: no-repeat bottom center url('../assets/png/hero/mobile-full.png')
     // background-size: contain
     // height: 400px
+    position: relative
     background-color: #193844
     .hero__content
       position: absolute
@@ -135,6 +136,8 @@ input[type="submit"]
     left: 0
     width: 100%
     z-index: -1
+  .layer-bg
+    position: relative
   .layer-1
     transform: translateY(-20px)
   .layer-2
@@ -151,11 +154,13 @@ input[type="submit"]
     width: 100%
     max-width: 500px
     margin: 0 auto
+    position: absolute
     @media (max-width: 1150px)
       max-width: 350px
     @media (max-width: 950px)
       max-width: 250px
     &__logo
-      width: 70%
+      // width: 70%
       margin: 0 auto
+      padding: 1rem
   

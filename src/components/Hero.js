@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import SocialLinks from '../components/SocialLinks'
 
 import heroBgFull from '../assets/png/hero/mobile-full.png'
+import mobileFullTall from '../assets/png/hero/mobile-full--tall.png'
 import bg from '../assets/png/hero/hero-bg.png'
 import l1 from '../assets/png/hero/hero-layer1-dark.png'
 import l2 from '../assets/png/hero/hero-layer2.png'
@@ -108,7 +109,7 @@ export default class Hero extends Component {
         )}
         {this.state.windowWidth <= 600 && (
           <div className="hero--mobile">
-            <img className="hero--mobile__bg" src={heroBgFull} />
+            <img className="hero--mobile__bg" src={mobileFullTall} />
             {this.heroContent(false)}
           </div>
         )}
