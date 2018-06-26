@@ -20,7 +20,7 @@ const IndexPage = () => (
           This is a collection of writings, collaborations, and projects
           spanning multiple different forms of media. As a general rule of
           thumb, a thing will only appear on this site, in any form, if it has
-          well-founded and legitimate and well-founded merit. Check it awt.
+          well-founded and legitimate merit. Check it awt.
         </p>
         <h2>Interested?</h2>
         <NewsletterForm />
