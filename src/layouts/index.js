@@ -3,6 +3,10 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import favicon from '../assets/png/favicon.png'
+import ogImage from '../assets/png/ogImage.png'
+
+const description =
+  'Yinz Guhyz has day or two late news, journalism that is extremely positive, videos that will make you (insert emotion here), intelligent sports opinions (gasp!)...'
 
 import './index.css'
 import './base.sass'
@@ -14,10 +18,24 @@ const Layout = ({ children, data }) => (
       meta={[
         {
           name: 'description',
-          content:
-            'Yinz Guhyz has day or two late news, journalism that is extremely positive, videos that will make you (insert emotion here), intelligent sports opinions (gasp!)...',
+          content: data.site.siteMetadata.description,
         },
-        { name: 'keywords', content: 'Pittsburgh, Pennsylvania' },
+        {
+          name: 'og:image',
+          content: ogImage,
+        },
+        {
+          name: 'og:description',
+          content: data.site.siteMetadata.description,
+        },
+        {
+          name: 'og:title',
+          content: data.site.siteMetadata.title,
+        },
+        {
+          name: 'twitter:title',
+          content: data.site.siteMetadata.title,
+        },
       ]}
       link={[
         {
