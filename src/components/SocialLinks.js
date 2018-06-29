@@ -56,7 +56,7 @@ export default () => (
       href={links.twitch}
       className="social-icon__link"
       target="_blank"
-      itle="Yinz Guhyz Twitch"
+      title="Yinz Guhyz Twitch"
     >
       <img src={twitch} alt="Twitch logo" />
     </a>
