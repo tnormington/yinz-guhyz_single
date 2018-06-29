@@ -3,6 +3,7 @@ module.exports = {
     title: 'Yinz Guhyz',
     description:
       'Yinz Guhyz has day or two late news, journalism that is extremely positive, videos that will make you (insert emotion here), intelligent sports opinions (gasp!)...',
+    url: 'https://yinzguhyz.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -33,6 +33,14 @@ const Layout = ({ children, data }) => (
           content: data.site.siteMetadata.title,
         },
         {
+          name: 'og:url',
+          content: data.site.siteMetadata.url,
+        },
+        {
+          name: 'og:type',
+          content: 'website',
+        },
+        {
           name: 'twitter:title',
           content: data.site.siteMetadata.title,
         },
