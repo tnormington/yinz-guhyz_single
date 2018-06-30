@@ -11,16 +11,11 @@ const IndexPage = () => (
       <div className="main-content__body">
         <div id="anchor-link" />
         <p>
-          We are a group of interesting people that originally hail from
-          Pittsburgh, with absolutely no professional experience in the fields
-          we will be discussing or working with. You know, kind of like most
-          people who are employed at jobs in this country.
-        </p>
-        <p>
-          This is a collection of writings, collaborations, and projects
-          spanning multiple different forms of media. As a general rule of
-          thumb, a thing will only appear on this site, in any form, if it has
-          well-founded and legitimate merit. Check it awt.
+          Multiple different forms of media were used in creating your regularly scheduled content.
+  We're sticklers for quality ova here, and that's why nothing will appear under our flag unless it has
+  well-founded and legitimate merit.  Our goal is to spread the good word, inspire others to express themselves, 
+  and to be a voice of legitimacy in a time where those are hard  to come by. We enjoy a good time. You to doo. 
+  We're in this together, friend. Check it awt.
         </p>
         <h2>Interested?</h2>
         <NewsletterForm />
