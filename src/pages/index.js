@@ -12,7 +12,7 @@ const IndexPage = () => (
         <div id="anchor-link" />
         <p>
           Multiple different forms of media were used in creating your regularly scheduled content.
-  We&#39;re sticklers for quality ova here, and that's why nothing will appear under our flag unless it has
+  We&#39;re sticklers for quality ova here, and that&#39;s why nothing will appear under our flag unless it has
   well-founded and legitimate merit.  Our goal is to spread the good word, inspire others to express themselves, 
   and to be a voice of legitimacy in a time where those are hard  to come by. We enjoy a good time. You to doo. 
   We&#39;re in this together, friend. Check it awt.
